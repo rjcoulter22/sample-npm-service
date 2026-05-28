@@ -1,0 +1,29 @@
+{
+  "name": "sample-npm-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sample npm service exercising a variety of dependency range styles for SCA range resolution testing.",
+  "dependencies": {
+    "lodash": "4.17.21",
+    "express": "^4.18.2",
+    "chalk": "~5.3.0",
+    "axios": ">=1.6.0 <2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vue": "3.x",
+    "next": "^14.0.0",
+    "webpack": "^5.0.0",
+    "uuid": "9.0.x",
+    "dayjs": "1.11.0 - 1.12.0",
+    "zod": ">=3.22.0 <4.0.0 || >=4.0.0 <5.0.0",
+    "commander": ">=11"
+  },
+  "devDependencies": {
+    "typescript": "5.0.0 - 5.6.0",
+    "jest": "^29.0.0",
+    "eslint": "~8.57.0",
+    "prettier": "3.2.5",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
